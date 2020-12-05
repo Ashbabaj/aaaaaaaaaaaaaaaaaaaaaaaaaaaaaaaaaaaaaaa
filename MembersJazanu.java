@@ -78,5 +78,11 @@ public abstract class MembersJazanu
     {
         return age;
     }
+    
+      public String toString() {
+        return "name :" +name+
+                " ID number"+ ID+"he is "+age+"old"+"he is "+"natioa;ity";
+  
+   }
 
 }

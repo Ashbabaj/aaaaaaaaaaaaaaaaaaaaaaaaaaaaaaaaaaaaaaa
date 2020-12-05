@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ student\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=level\ GPU
+comment1.target=Student(int,\ double)
+comment2.params=
+comment2.target=Student()
+comment3.params=level
+comment3.target=void\ setLevel(int)
+comment4.params=
+comment4.target=int\ getLevel()
+comment5.params=GPU
+comment5.target=void\ setGPU(int)
+comment6.params=GPU
+comment6.target=void\ setGPU(double)
+comment7.params=
+comment7.target=double\ getGPU()
+comment8.params=
+comment8.target=void\ displayInfo()
+numComments=9

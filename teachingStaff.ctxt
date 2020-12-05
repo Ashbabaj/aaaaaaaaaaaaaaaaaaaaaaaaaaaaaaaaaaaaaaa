@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=teachingStaff
+comment1.params=
+comment1.target=teachingStaff()
+comment2.params=s
+comment2.target=void\ setSalary(double)
+comment3.params=salary
+comment3.target=double\ addedSalary(int)
+comment4.params=c1
+comment4.target=void\ teach(java.lang.String)
+comment5.params=
+comment5.target=void\ displayIfo()
+numComments=6

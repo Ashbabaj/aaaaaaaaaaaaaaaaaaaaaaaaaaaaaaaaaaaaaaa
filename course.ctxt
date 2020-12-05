@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=course
+comment1.params=teachers\ students
+comment1.target=course(java.util.ArrayList,\ java.util.ArrayList)
+comment2.params=
+comment2.target=java.util.ArrayList\ getTeachers()
+comment3.params=teacher
+comment3.target=void\ addTeacher(teachingStaff)
+comment4.params=
+comment4.target=java.util.ArrayList\ getStudents()
+comment5.params=student
+comment5.target=void\ addStudent(Student)
+numComments=6

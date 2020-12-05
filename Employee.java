@@ -8,9 +8,9 @@
 public abstract class Employee extends MembersJazanu 
 {
     // instance variables - replace the example below with your own
-    private double salary;
+   
     private int rank;
-    private String jab;
+    private String job;
    
     
     // creating new doctor object
@@ -20,26 +20,20 @@ public abstract class Employee extends MembersJazanu
        
     }
     
-    public Employee(double salary,int rank,String jab)
+    public Employee(int rank,String job)
     {
        super();
-       this.salary=salary;
+       
        this.rank= rank;
-       this.jab=jab; 
+       this.job=job; 
     }
 
    
-    //return the salary of memebar
-    public void setSalary(double s)
-    {
-      this.salary=s;
-    }
-    public void setSalary(int s)
-    {
-    this.salary=s;
-    }
-    
-    public abstract double getSalary();
+    //abtract method
+  
+    public abstract void setSalary(double s);
+   
+   
     
     public void setRank(int r)
     {
@@ -53,17 +47,21 @@ public abstract class Employee extends MembersJazanu
     
      
      
-     public void setJab(String j)
+     public void setJob(String j)
     {
-    this.jab=j;
+    this.job=j;
     }
     
-    public  String getJab()
+    public  String getJob()
      {
-         return jab;
+         return job;
      }
   
-    
+     public String toString() {
+        return "his rank :" +rank+
+                " he is "+ job;
+  
+   }
     
     
     

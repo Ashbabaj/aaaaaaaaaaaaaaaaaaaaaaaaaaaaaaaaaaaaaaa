@@ -48,8 +48,15 @@
     }
     
      //return GPU of student
-    public double getGPU()
+   public double getGPU()
      {
          return GPU;
      }
+     
+   public void  displayInfo(){
+    System.out.println("Student's name :" +getName());
+    System.out.println(" ID number"+ getId());
+    System.out.println(" ID number"+ GPU);
+  
+   }
 }
