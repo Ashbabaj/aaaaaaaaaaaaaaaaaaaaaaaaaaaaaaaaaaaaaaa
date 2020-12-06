@@ -5,29 +5,39 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class managemet extends Employee implements SupportSystem
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class managemet
-     */
-    public managemet()
-    {
-        // initialise instance variables
-        x = 0;
+import java.util.Random;
+ public class managemet extends Employee implements SupportSystem  
+ {
+   // instance variables - replace the example below with your own
+   private double salary;
+   private int salaryEarned;
+   public void setSalary(double s){
+        this.salary=s;
+    
+    }
+   public double addedSalary(int salary){
+      return salaryEarned+=salary ;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+   public void  solveProblem(){
+      Report n =new Report();
+      Random r = new Random();
+      int responts =r.nextInt(n.getIdReport());
+       
     }
-}
+    
+    public void orgnizing()
+   {
+    
+       
+    
+    
+    } 
+  
+        
+        
+        
+        }
+    
+

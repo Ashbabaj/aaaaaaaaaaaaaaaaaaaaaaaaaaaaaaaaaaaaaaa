@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=managemet
+comment1.params=s
+comment1.target=void\ setSalary(double)
+comment2.params=salary
+comment2.target=double\ addedSalary(int)
+comment3.params=
+comment3.target=void\ solveProblem()
+comment4.params=
+comment4.target=void\ orgnizing()
+numComments=5

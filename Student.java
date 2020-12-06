@@ -48,10 +48,20 @@
     }
     
      //return GPU of student
-   public double getGPU()
+     public double getGPU()
      {
          return GPU;
      }
+     
+     public void help(){
+          Report r=new Report();
+          r.generateReport();
+          
+         
+        
+        
+        }
+     
      
    public void  displayInfo(){
     System.out.println("Student's name :" +getName());
@@ -59,4 +69,11 @@
     System.out.println(" ID number"+ GPU);
   
    }
+   
+   
+   public void getToHelp(){
+    Report r = new Report();
+    r.generateReport();
+    
+    }
 }
